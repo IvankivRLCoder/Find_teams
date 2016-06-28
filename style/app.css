@@ -39,3 +39,9 @@
     display: inline-block;
     margin: 0 auto;
 }
+.icon_flag{
+    padding-left: 10px;
+    display: flex;
+    height: 35px;
+    width: 45px;
+}
