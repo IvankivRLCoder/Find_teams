@@ -27,7 +27,7 @@
     float: left;
 }
 [ng-drop].drag-enter {
-    border: solid 1px red;
+    border: solid 4px #727272;
     background: rgba(121, 121, 121, 0.42);
     border-radius: 20px;
 }
