@@ -1,0 +1,41 @@
+[ng-drag] {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[ng-drag] {
+    display: flex;
+    background: rgb(219, 219, 219);
+    color: #313131;
+    cursor: move;
+    border-radius: 20px;
+}
+[ng-drag].drag-over {
+    background-color: rgba(255, 156, 13, 0.52);
+    border-radius: 20px;
+}
+[ng-drag].dragging {
+    opacity: 0.5;
+}
+[ng-drop] {
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 5px;
+    float: left;
+}
+[ng-drop].drag-enter {
+    border: solid 1px red;
+    background: rgba(121, 121, 121, 0.42);
+    border-radius: 20px;
+}
+[ng-drop] div {
+    position: relative;
+    z-index: 2;
+}
+.draglist {
+    display: inline-block;
+    margin: 0 auto;
+}
