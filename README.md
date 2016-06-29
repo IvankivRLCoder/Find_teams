@@ -1,15 +1,8 @@
 # Find_teams
 http://ivankivrlcoder.github.io/Find_teams/
 
-
 ### Setup on local
-# Find_teams
-
-To run local server:
-```bash
-$ python -m SimpleHTTPServer .
-```
-
+To run local server:```bash$ python -m SimpleHTTPServer .```
 
 ### Technologies:
 - [AngularJS](https://angularjs.org/)
