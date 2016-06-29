@@ -1,5 +1,8 @@
+body{
+    background-color: #313131;
+}
 .left-content{
-    background-color: rgba(112, 112, 112, 0.45);
+    background-color: rgba(154, 154, 154, 1);
 }
 [ng-drag] {
     -moz-user-select: -moz-none;
@@ -10,7 +13,6 @@
 }
 [ng-drag] {
     display: flex;
-    background: rgb(219, 219, 219);
     color: #313131;
     cursor: move;
     border-radius: 20px;
@@ -26,7 +28,6 @@
     text-align: center;
     display: flex;
     position: relative;
-    padding: 5px;
     float: left;
 }
 [ng-drop].drag-enter {
@@ -54,3 +55,4 @@
     justify-content: flex-end;
     align-items: stretch;
 }
+
